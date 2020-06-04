@@ -50,8 +50,9 @@ for i in range(len(students)-1,0,-2):
     del students[randomStudent2Index]
 
 
+if len(students):
 
-randomPairs.append({"soloMode":students[0]})
+    randomPairs.append({"soloMode":students[0]})
 
 for pair in randomPairs:
   print(pair)
